@@ -10,7 +10,10 @@
 {% feed_meta %}
 </head>
 <body>
-<header><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a><nav aria-label="Blog"><a href="{{ '/feed.xml' | relative_url }}">RSS</a></nav></header>
+<header class="masthead"><div class="masthead-inner">
+<a class="wordmark" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+<nav aria-label="Blog"><a href="{{ '/feed.xml' | relative_url }}">RSS</a></nav>
+</div></header>
 <main>{{ content }}</main>
 </body>
 </html>

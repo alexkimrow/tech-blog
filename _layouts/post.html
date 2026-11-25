@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-<article>
+<article class="story">
 <h1>{{ page.title | escape }}</h1>
-<p class="muted"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+{% if page.description %}<p class="deck">{{ page.description | escape }}</p>{% endif %}
+<p class="meta">Alex <span aria-hidden="true">·</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+<div class="prose">
 {{ content }}
+</div>
 </article>

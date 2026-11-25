@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
+<div class="intro">
 <h1>{{ site.title | escape }}</h1>
-<p class="intro">{{ site.description | escape }}</p>
-<section aria-labelledby="posts">
-<h2 id="posts">Posts</h2>
+<p>{{ site.description | escape }}</p>
+</div>
+<section class="post-list" aria-labelledby="posts">
+<h2 id="posts">Latest posts</h2>
 {% for post in site.posts %}
 <article>
 <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-<p class="muted"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
 {% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}
+<p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
 </article>
 {% else %}
 <p>No posts yet.</p>
