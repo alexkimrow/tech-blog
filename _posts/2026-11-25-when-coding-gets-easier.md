@@ -9,6 +9,10 @@ That was the part I was looking forward to. I wanted a place to share what I was
 
 I think about the same thing when I build products. With tools like Claude Code, I can get to a working version of an idea much faster. That gives me more time to figure out who would actually use it, what they already do to solve the problem, and whether my version makes their day any easier. I’m starting to think that’s where product sense shows up most clearly: in deciding what to build after you understand what someone needs.
 
+<figure class="post-figure">
+  <img src="{{ '/assets/images/when-coding-gets-easier.jpg' | relative_url }}" alt="Paper interface sketches beside a pencil" loading="lazy" decoding="async">
+</figure>
+
 Design is part of that decision. I’ve been checking out Mobbin because it lets me see how real products guide people through things like onboarding or choosing a plan. Its MCP brings those references into an AI workflow, which makes it easier to explore a few directions before building. What I want to get better at is looking at those examples and asking *why* a particular design works. An onboarding flow that makes sense for someone setting up a tool for their whole team might feel like a chore to someone who just wants to try it for five minutes. [Mobbin MCP](https://mobbin.com/mcp)
 
 Marketing brings me back to the same question. If I can describe what my product does but struggle to explain why someone would switch from what they already use, I probably need to learn more about that person. I’d rather hear how they handled the problem last time than ask whether they’d use an app I haven’t built yet. The first answer tells me what I’m actually competing with. [Y Combinator’s *How to Talk to Users*](https://www.youtube.com/watch?v=z1iF1c8w5Lg)

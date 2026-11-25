@@ -9,6 +9,10 @@ I read something recently that gave me a different way to think about getting un
 
 I work as a data scientist, and I’m always thinking about products I could build. A question about the data can turn into an idea for a tool. Then I start wondering what it would be like to use it. What would someone click first? What would they want to do next? I enjoy following an idea far enough to make something I can try.
 
+<figure class="post-figure">
+  <img src="{{ '/assets/images/starting-in-public.jpg' | relative_url }}" alt="A laptop and notebook on a quiet writing desk" loading="lazy" decoding="async">
+</figure>
+
 There’s a lot I learn in that stretch between having an idea and getting it to work. Sometimes it’s a technical detail I wish I’d understood sooner. Sometimes I find out I was trying to solve the wrong problem. I want a place to write those things down while I still remember what it felt like to figure them out.
 
 That’s what I want to share here. Some posts will be about things I’m building. Others might be a short note about a problem I got stuck on or a question I’m still working through. I’d like to be able to come back in a few months and see how my thinking has changed.
