@@ -1,0 +1,17 @@
+title: Alex's Tech Notes
+description: Notes on building software, debugging, and what I learn along the way.
+url: https://alexkimrow.github.io
+baseurl: /tech-blog
+timezone: America/Chicago
+future: false
+permalink: /posts/:slug/
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
