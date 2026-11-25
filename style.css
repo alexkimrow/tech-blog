@@ -1,20 +1,20 @@
 :root {
   color-scheme: light dark;
-  --paper: #fbf9f5;
-  --ink: #25231f;
-  --muted: #5f5a51;
-  --rule: #dcd6cc;
-  --accent: #815133;
+  --paper: #fff;
+  --ink: #202020;
+  --muted: #595959;
+  --rule: #dedede;
+  --accent: #404040;
   --serif: Georgia, "Times New Roman", serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #201e1b;
-    --ink: #f1ebe0;
-    --muted: #c0b6a7;
-    --rule: #4b453d;
-    --accent: #e1ad87;
+    --paper: #000;
+    --ink: #f2f2f2;
+    --muted: #b6b6b6;
+    --rule: #383838;
+    --accent: #d2d2d2;
   }
 }
 
