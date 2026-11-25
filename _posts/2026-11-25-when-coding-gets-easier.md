@@ -3,18 +3,32 @@ title: "When coding gets easier, what’s worth building?"
 description: "What faster coding has taught me about product sense, design, and talking to customers."
 ---
 
-When I started this blog, I asked AI to set it up. Before I had finished writing my first post, I had a live site and a workflow that could publish the next one. Then I opened the homepage and saw three words: “No posts yet.”
+When I started this blog, I asked AI to set it up. Before I had finished writing my first post, I had a live site and a workflow that could publish the next one. Then I opened the homepage and saw “No posts yet.”
 
-That was the part I was looking forward to. I wanted a place to share what I was building and what I was learning as a data scientist. The faster setup meant I could get to the writing sooner. It also made me ask a question I’d been putting off: What would make someone want to come back and read the next post?
+I’d spent time getting the site up. I hadn’t spent nearly as much time thinking about why someone might come back after reading the first post. Once the site was live, that was the question I wanted to answer.
 
-I think about the same thing when I build products. With tools like Claude Code, I can get to a working version of an idea much faster. That gives me more time to figure out who would actually use it, what they already do to solve the problem, and whether my version makes their day any easier. I’m starting to think that’s where product sense shows up most clearly: in deciding what to build after you understand what someone needs.
+## A prototype gives me something to test
+
+With tools like Claude Code, I can get to a working version of an idea quickly. That’s useful because I can put something in front of someone while the idea is still easy to change. I want to get better at using that time to learn what they need before I build too much.
+
+Say I’m making a dashboard for someone who checks the same numbers each morning. I could build filters, charts, and exports before I know how they use any of it. But if I watch them do their morning check, I might find that they open a spreadsheet, scan two numbers, and message a coworker if one looks off. I’d probably start with those two numbers and spend some time figuring out what “off” means to them.
+
+That’s what I mean by product sense. The closer I get to watching someone do the work, the easier it is to decide what belongs in the first version.
 
 <figure class="post-figure">
   <img src="{{ '/assets/images/when-coding-gets-easier.jpg' | relative_url }}" alt="Paper interface sketches beside a pencil" loading="lazy" decoding="async">
 </figure>
 
-Design is part of that decision. I’ve been checking out Mobbin because it lets me see how real products guide people through things like onboarding or choosing a plan. Its MCP brings those references into an AI workflow, which makes it easier to explore a few directions before building. What I want to get better at is looking at those examples and asking *why* a particular design works. An onboarding flow that makes sense for someone setting up a tool for their whole team might feel like a chore to someone who just wants to try it for five minutes. [Mobbin MCP](https://mobbin.com/mcp)
+## Design depends on who’s using it
 
-Marketing brings me back to the same question. If I can describe what my product does but struggle to explain why someone would switch from what they already use, I probably need to learn more about that person. I’d rather hear how they handled the problem last time than ask whether they’d use an app I haven’t built yet. The first answer tells me what I’m actually competing with. [Y Combinator’s *How to Talk to Users*](https://www.youtube.com/watch?v=z1iF1c8w5Lg)
+I’ve been checking out Mobbin because it lets me see how real products handle things like onboarding or choosing a plan. Its MCP brings those examples into an AI workflow, so I can compare a few approaches before building. [Mobbin MCP](https://mobbin.com/mcp)
 
-That’s the part I’m most interested in getting better at as AI takes on more of the coding. I can get an idea onto a screen quickly now. The next thing I want to learn is how to put it in front of someone, watch what they do, and let that change what I build next.
+What I want to get better at is figuring out why a design makes sense for the person using it. If I’m setting up a tool for my whole team, I might appreciate being asked about permissions and who to invite. If I’m trying it for five minutes between meetings, I’d probably want to see what it does before I answer any of that. That difference could change what I put on the first screen.
+
+## Marketing starts with what people already do
+
+If I can explain what a product does but can’t tell you why someone would switch, I probably need to learn more about that person.
+
+I like the question “How did you handle it last time?” It could tell me they already have a spreadsheet that works well enough, or that the frustrating part is chasing people for updates. If I know which one it is, I have a better idea of what to build and what to say when I show it to them. [Y Combinator’s *How to Talk to Users*](https://www.youtube.com/watch?v=z1iF1c8w5Lg)
+
+I’m still excited about how quickly I can get an idea onto a screen. The part I want to practice now is showing it to someone early enough that what they do can change what I build next.
