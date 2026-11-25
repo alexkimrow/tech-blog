@@ -33,7 +33,6 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
   padding: .9rem 1.25rem;
 }
 .wordmark { color: var(--ink); font: bold 1.3rem/1.2 var(--serif); text-decoration: none; }
-.masthead nav { font-size: .875rem; }
 main { width: min(100% - 2.5rem, 43rem); margin: auto; padding: clamp(2.5rem, 8vw, 5.5rem) 0 5rem; }
 h1, h2, h3 { line-height: 1.12; }
 h1 { font: 700 clamp(2.5rem, 7vw, 4.15rem)/1.05 var(--serif); letter-spacing: -.045em; margin: 0 0 1rem; }
